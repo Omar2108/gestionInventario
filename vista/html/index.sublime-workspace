@@ -1,0 +1,281 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/gestionInventario/vista/css/estilo.css",
+		"/C/xampp/htdocs/gestionInventario/vista/html/facturaCrear.html",
+		"/C/xampp/htdocs/gestionInventario/vista/js/factura.js",
+		"/C/xampp/htdocs/gestionInventario/inicioVendedor.php",
+		"/C/xampp/htdocs/gestionInventario/empleadoCrear.php",
+		"/C/Users/LENOVO/Desktop/factura_Crear.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/html/empleadosCrear.html",
+		"/C/Users/LENOVO/Desktop/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css",
+		"/C/Users/LENOVO/Desktop/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js",
+		"/C/Users/LENOVO/Desktop/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js",
+		"/C/xampp/htdocs/gestionInventario/vista/html/empleadosCrear.html",
+		"/C/xampp/htdocs/gestionInventario/vista/html/proveedoresConsulta.html",
+		"/C/xampp/htdocs/gestionInventario/vista/html/proveedoresCrear.html",
+		"/C/xampp/htdocs/gestionInventario/vista/html/recuperarContraseña.html",
+		"/C/xampp/htdocs/gestionInventario/vista/html/usuariosConsulta.html",
+		"/C/xampp/htdocs/gestionInventario/vista/html/empleadosConsulta.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 7/EVIDENCIAS/gestionInventario/almacenConsulta.php",
+		"/C/xampp/htdocs/gestionInventario/vista/html/almacenConsulta.html",
+		"/C/xampp/htdocs/gestionInventario/vista/html/almacenRegistro.html",
+		"/C/xampp/htdocs/gestionInventario/vista/html/clientesCrear.html",
+		"/C/xampp/htdocs/gestionInventario/vista/html/crearUsuario.html",
+		"/C/xampp/htdocs/gestionInventario/vista/html/consultaCliente.html",
+		"/C/xampp/htdocs/gestionInventario/vista/html/index.html",
+		"/C/xampp/htdocs/gestionInventario/vista/html/inicio.html",
+		"/C/xampp/htdocs/gestionInventario/almacenConsulta.php",
+		"/C/xampp/htdocs/gestionInventario/empleadoConsulta.php",
+		"/C/xampp/htdocs/gestionInventario/clienteCrear.php",
+		"/C/xampp/htdocs/gestionInventario/consultaUsuario.php",
+		"/C/xampp/htdocs/gestionInventario/clienteConsulta.php",
+		"/C/xampp/htdocs/gestionInventario/vista/html/facturaConsulta.html",
+		"/C/xampp/htdocs/gestionInventario/index.php",
+		"/C/xampp/htdocs/gestionInventario/modelo/conexion.php",
+		"/C/xampp/htdocs/gestionInventario/close.php",
+		"/C/xampp/htdocs/gestionInventario/login.php",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 7/EVIDENCIAS/tiendabendicion.sql",
+		"/C/xampp/htdocs/gestionInventario/proveedoresConsulta.php",
+		"/C/xampp/htdocs/gestionInventario/inicioAlmacen.php",
+		"/C/xampp/htdocs/gestionInventario/proveedoresCrear.php",
+		"/C/xampp/htdocs/gestionInventario/modelo/cliente.php",
+		"/C/xampp/htdocs/gestionInventario/modelo/almacen.php",
+		"/C/xampp/htdocs/gestionInventario/registroUsuario.php",
+		"/C/xampp/htdocs/gestionInventario/modelo/factura.php",
+		"/C/xampp/htdocs/gestionInventario/modelo/proveedor.php",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 7/EVIDENCIAS/gestionInventario.sql",
+		"/C/xampp/htdocs/gestionInventario/admin/config.php",
+		"/C/xampp/htdocs/gestionInventario/recuperarContraseña.php",
+		"/C/xampp/htdocs/gestionInventario/modelo/empleado.php",
+		"/C/xampp/htdocs/gestionInventario/modelo/usuario.php",
+		"/C/xampp/phpMyAdmin/config.inc.php",
+		"/C/xampp/htdocs/phpMyAdmin/config.inc.php",
+		"/C/xampp/htdocs/gestionInventario/funcion.php",
+		"/C/xampp/htdocs/gestionInventario/recuperarPassword.php",
+		"/C/xampp/htdocs/gestionInventario/validacion.php",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/xampp/htdocs/gestionInventario/inicioAdmin.php",
+		"/C/Users/LENOVO/Desktop/multiusuarios-login-php-mysql/Multiusuarios-Login-PHP-MySQL/registro.php",
+		"/C/Users/LENOVO/Desktop/multiusuarios-login-php-mysql/Multiusuarios-Login-PHP-MySQL/DBconect.php",
+		"/C/Users/LENOVO/Desktop/multiusuarios-login-php-mysql/Multiusuarios-Login-PHP-MySQL/header.php",
+		"/C/Users/LENOVO/Desktop/multiusuarios-login-php-mysql/Multiusuarios-Login-PHP-MySQL/cerrar_sesion.php",
+		"/C/xampp/htdocs/gestionInventario/consultaFactura.php",
+		"/C/xampp/htdocs/gestionInventario/vista/CSS/Estilo.css",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/htdocs/gestionInventario/loguin.php",
+		"/C/xampp/htdocs/gestionInventario/vista/CSS/estilos.css",
+		"/C/xampp/htdocs/gestionInventario/buscarUsuarios.php",
+		"/C/xampp/htdocs/gestionInventario/registroUsuario",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/CSS/Estilo.css",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/style.txt",
+		"/C/xampp/htdocs/prueba.php",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/js/factura.js",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/facturaCrear.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/empleadosCrear.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/almacenRegistro.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/crearUsuario.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/index.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/recuperarContraseña.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/empleadoCrear.txt",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/inicio.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/proveedoresCrear.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/almacenConsulta.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/consultaCliente.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/facturaConsulta.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/clientesCrear.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/proveedoresCrear.txt",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/proveedoresConsulta.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/almacenRegistro.txt",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/clientesCrear.txt",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaces Web Proyecto/factura.js",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/empleadoCrear.txt",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/proveedoresConsulta.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/usuariosConsulta.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/empleadosCrear.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/empleadosConsulta.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/crearUsuario.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/consultaCliente.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/clientesCrear.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/almacenRegistro.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/almacenConsulta.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/CSS/Estilo.css",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/facturaConsulta.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/facturaCrear.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/proveedoresCrear.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/inicio.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/index.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/facturaConsuta.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/css-index.txt",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/proveedores.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/clientes.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/almacen.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/empleados.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/usuarios.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/Index.html/index.html",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/CSS/ESTILO.css/CSS.css",
+		"/C/Users/LENOVO/Desktop/CLASE SENA ADSI/ADSI/PROYECTO/FASE 4.DESARROLLO/ACTIVIDAD DE PROYECTO 6/EVIDENCIAS/Interfaz Web Proyecto/Index.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 39.3333333333
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
