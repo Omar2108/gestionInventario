@@ -2,35 +2,37 @@
 /**
  * 
  */
-class almacen extends AnotherClass
+require_once './modelo/conexion.php';
+
+class almacen 
 {
 	private $idProd;
 	private $nombresProd;
 	private $marcaProd;
-	private $fechavencProd;
-	private $CantidadEntrProd;
-	private $fechaEntrProd;
-	private $valorUnEntrProd;
-	private $cantidadVendProd;
-	private $valorUnComerProd;
-	private $fechaSalidaProd;
-	private $cantidadDispProd;
-	private $utilidadProd;
+	private $fechavenc;
+	private $CantidadEntr;
+	private $fechaEntr;
+	private $valorUnEntr;
+	private $cantVend;
+	private $valorUCom;
+	private $fechaSa;
+	private $cantidadD;
+	private $utilidad;
 	
 	function __construct($idP, $nomP, $marP, $feVenP, $canEnP, $feEnP, $vaUnEnP, $canVenP, $vaUnCoP, $feSaP, $canDisP, $uti)
 	{
 		$this->$idProd=$idP;
 	    $this->$nombresProd=$nomP;
 	    $this->$marcaProd=$marP;
-	    $this->$fechavencProd=$feVenP;
-	    $this->$CantidadEntrProd=$canEnP;
+	    $this->$fechavenc=$feVenP;
+	    $this->$CantidadEntr=$canEnP;
 	    $this->$fechaEntrProd=$feEnP;
-	    $this->$valorUnEntrProd=$vaUnEnP;
-	    $this->$cantidadVendProd=$canVenP;
-	    $this->$valorUnComerProd=$vaUnCoP;
-	    $this->$fechaSalidaProd=$feSaP;
-	    $this->$cantidadDispProd=$canDisP;
-	    $this->$utilidadProd=$uti;
+	    $this->$valorUnEntr=$vaUnEnP;
+	    $this->$cantVend=$canVenP;
+	    $this->$valorUCom=$vaUnCoP;
+	    $this->$fechaSa=$feSaP;
+	    $this->$cantidadD=$canDisP;
+	    $this->$utilidad=$uti;
 		
 	}
 
@@ -92,6 +94,35 @@ class almacen extends AnotherClass
 	public function obtenerUtilidad()
 	{
 		return $this->utilidadProd;
+	}
+
+	protected static function consultaProductos($sql){
+
+		$conexion= new conexion();
+		$conexion->abrirConexion();
+
+		$sql = $conexion->prepare("SELECT * FROM almacen WHERE IDProd = $doc;");
+
+		$resultado=$conexion->consulta($sql);
+
+		$resultado=$conexion->obtenerResultado();
+
+		return $resultado;
+	}
+
+	protected static function guardarProductos($sql){
+
+		$conexion= new conexion();
+		$conexion->abrirConexion();
+
+		$sql = $conexion->prepare("INSERT INTO almacen(IDProd, nombreProd, marcaProd, fechaVenProd, cantEntrProd, fechaEntrProd, valorUnEntrProd, cantVendProd, valorUnComProd, fechaSalProd, cantDisProd, utilidadProd) VALUES (null, '$nombresProd', '$marcaProd', '$fechaVenc', '$cantEntr', '$fechaEnt', '$valorUnEnt', '$cantVend', '$valorUCom', '$fechaSa', '$cantidadD','$utilidad')");
+
+		$resultado=$conexion->consulta($sql);
+
+		$resultado=$conexion->obtenerResultado();
+
+		return $resultado;
+
 	}
 }
 

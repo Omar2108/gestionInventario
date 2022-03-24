@@ -12,9 +12,14 @@ html body {
 
 }
 
+.bodyContenedor {
+	background: url(https://i.ibb.co/TTtMQ3F/encabezado.png);
+	justify-content: center;
+}
+
 .login-box {
-	width: 320px;
-	height: 420px;
+	width: 400px;
+	height: 500px;
 	background: grey;
 	color: whitesmoke;
 	top: 50%;
@@ -634,6 +639,17 @@ html body {
 	text-align: center !important;
 	justify-content: center !important;
 	font-family: sans-serif !important;
+}
+
+/*----------  Page 404 styles  ----------*/
+.container-404{
+	background: #000428;
+	background: linear-gradient(to right, #004e92, #000428);
+	color: #fff;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 

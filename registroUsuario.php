@@ -1,8 +1,6 @@
 <<?php session_start();
 
-require 'admin/config.php';
-require 'funcion.php';
-require 'vista/html/crearUsuario.html';
+require 'vista/html/crearUsuario-view.php';
 require_once 'modelo/conexion.php';
 
 $server = "localhost";
@@ -35,34 +33,38 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$usuario = $_POST['usuario'];
 	$password = $_POST['password'];
 	$rol = $_POST['rol'];
-	$privilegios = $_POST['privilegios'];
+	
 
 	$consulta = '';
 
-	$consulta = "INSERT INTO usuarios(IDUsu, nombreUsu, apellidosUsu, cedulaUsu, emailUsu, usuario, password, rol, privilegios) VALUES (null, '$nombres', '$apellidos', '$cedula', '$email', '$usuario', '$password', '$rol', '$privilegios')";
+	$consulta = "INSERT INTO usuarios(IDUsu, nombreUsu, apellidosUsu, cedulaUsu, emailUsu, usuario, password, rol) VALUES (null, '$nombres', '$apellidos', '$cedula', '$email', '$usuario', '$password', '$rol')";
 
 		
 	$resultado = mysqli_query($conexion, $consulta);
 
 	if ($resultado) {
-		echo "el perfil de almacenamiento se ejecuto correctamente.</br>";
-
+		echo "<script type=\"text/javascript\"> alert ('REGISTRO EXITOSO');";
+        echo "</script>";
 			
 	} else {
-		echo "error en la ejecución de la consulta. <br />";
+		echo "<script type=\"text/javascript\"> alert ('NO SE PUEDO REALIZAR EL REGISTRO');";
+        echo "</script>";
 	}
 
 	if (mysqli_close($conexion)) {
-		echo "desconexion realizada. <br />";
+		echo "<script type=\"text/javascript\"> alert ('DESCONEXION EXITOSA');";
+        echo "</script>";
 	} else {
-		echo "error en la desconexión.</br>";
+		echo "<script type=\"text/javascript\"> alert ('ERROR EN LA DESCONEXION');";
+        echo "</script>";
 	}
 
 	
 		
 
 } else {
-	echo "No se pudo realizar el registro en la tabla.</br>";
+	echo "<script type=\"text/javascript\"> alert ('NO SE PUEDO REALIZAR EL REGISTRO');";
+    echo "</script>";
 }
 
 

@@ -1,5 +1,5 @@
 <<?php 
-include 'vista/html/empleadosCrear.html';
+include 'vista/html/empleadosCrear-view.php';
 
 $server = "localhost";
 $user = "root";
@@ -9,21 +9,26 @@ $dbname = "tiendabendicion";
 $conexion = new mysqli("localhost","root","","tiendabendicion");
 
 if ($conexion) {
-    echo "Conectado a la  DB.</br>";
+     echo "<script type=\"text/javascript\"> alert ('CONEXION EXITOSA');";
+    echo "</script>";
 } else {
-    echo "No se Puedo establecer conexion a la DB.</br>";
+     echo "<script type=\"text/javascript\"> alert ('NO SE PUEDO ESTABLECER CONEXION');";
+    echo "</script>";
 }
 
 $selectDB = mysqli_select_db($conexion,'tiendabendicion');
 
 if ($selectDB) {
-    echo "Se selecciono correctamente la base de datos.</br>";
+     echo "<script type=\"text/javascript\"> alert ('CONECTADO A LA BD');";
+    echo "</script>";
 } else {
-    echo "No se encontro la base de datos.</br>";
+     echo "<script type=\"text/javascript\"> alert ('NO SE ENCONTRO BD');";
+    echo "</script>";
 }
 
 
-if (isset($_POST['regEmpleado'])) {
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    
     $nombresEmp = $_POST['nombresEmp'];
     $apellidosEmp = $_POST['apellidosEmp'];
     $cedulaEmp = $_POST['cedulaEmp'];
@@ -40,30 +45,35 @@ if (isset($_POST['regEmpleado'])) {
 
     $sql = '';
 
-    $sql = "INSERT INTO empleados(nombresEmpl, apellidosEmpl, cedulaEmpl, generoEmpl, telefonoEmpl, direccionEmpl, emailEmpl, cargoEmpl, sueldoEmpl, espEmpl, fondPenEmpl, arlEmpl) VALUES ('$nombresEmp', '$apellidosEmp', '$cedulaEmp', '$generoEmp', '$telefonoEmp', '$direccionEmp', '$emailEmp', '$cargoEmp', '$sueldoEmp', '$espEmp','$fondoPEmp', '$arlEmp');";
+    $sql = "INSERT INTO 'empleados'('nombresEmpl', 'apellidosEmpl', 'cedulaEmpl', 'generoEmpl', 'telefonoEmpl', 'direccionEmpl', 'emailEmpl', 'cargoEmpl', 'sueldoEmpl', 'espEmpl', 'fondPenEmpl', 'arlEmpl') VALUES ('[$nombresEmp]','[$apellidosEmp]','[$cedulaEmp]','[$generoEmp]','[$telefonoEmp]','[$direccionEmp]','[$emailEmp]','[$cargoEmp]','[$sueldoEmp]','[$espEmp]','[$fondoPEmp]','[$arlEmp]');";
 
         
     $resultado = mysqli_query($conexion, $sql);
 
     if ($resultado) {
-        echo "el perfil de almacenamiento se ejecuto correctamente.</br>";
+        echo "<script type=\"text/javascript\"> alert ('REGISTRO DE EMPLEADO EXITOSO');";
+        echo "</script>";
 
             
     } else {
-        echo "error en la ejecución de la consulta. <br />";
+        echo "<script type=\"text/javascript\"> alert ('NO SE PUEDO REALIZAR EL REGISTRO');";
+        echo "</script>";
     }
 
     if (mysqli_close($conexion)) {
-        echo "desconexion realizada. <br />";
+        echo "<script type=\"text/javascript\"> alert ('DESCONEXION EXITOSA');";
+        echo "</script>";
     } else {
-        echo "error en la desconexión.</br>";
+        echo "<script type=\"text/javascript\"> alert ('ERROR EN LA DESCONEXION');";
+        echo "</script>";
     }
 
     
         
 
 } else {
-    echo "No se pudo realizar el registro en la tabla.</br>";
+    echo "<script type=\"text/javascript\"> alert ('ERROR EN EL REGISTRO');";
+    echo "</script>";
 }
 
 

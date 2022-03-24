@@ -1,21 +1,25 @@
 <<?php session_start();
 
-include 'vista/html/almacenConsulta.html'; 
+include 'vista/html/almacenConsulta-view.php'; 
 
 $conexion = new mysqli("localhost","root","","tiendabendicion");
 
 if ($conexion) {
-    echo "Conectado a la  DB.</br>";
+   echo "<script type=\"text/javascript\"> alert ('Conectado a la DB');";
+   echo "</script>";
 } else{
-    echo "No se Puedo establecer conexion a la DB.</br>";
+    echo "<script type=\"text/javascript\"> alert ('No se Puedo establecer conexion a la DB');";
+    echo "</script>";
 }
 
 $selectDB = mysqli_select_db($conexion,'tiendabendicion');
 
 if ($selectDB) {
-    echo "Se selecciono correctamente la base de datos.</br>";
+    echo "<script type=\"text/javascript\"> alert ('Se selecciono correctamente la DB');";
+    echo "</script>";
 } else {
-    echo "No se encontro la base de datos.</br>";
+    echo "<script type=\"text/javascript\"> alert ('No se encontro la DB');";
+    echo "</script>";
 }
 
 
@@ -73,7 +77,8 @@ if (isset($_POST['submit'])) {
 
 
 } else {
-    echo "No se puedo ejecutar la consulta en la Tabla no se encontro.";
+    echo "<script type=\"text/javascript\"> alert ('ERROR EN LA EJECUCION DE LA CONSULTA');";
+    echo "</script>";
 }
 
  ?>

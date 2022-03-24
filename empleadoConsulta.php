@@ -1,20 +1,24 @@
 <<?php 
-include 'vista/html/empleadosConsulta.html';
+include 'vista/html/empleadosConsulta-view.php';
 
 $conexion = new mysqli("localhost","root","","tiendabendicion");
 
 if ($conexion) {
-    echo "Conectado a la  DB.</br>";
+   echo "<script type=\"text/javascript\"> alert ('Conectado a la DB');";
+   echo "</script>";
 } else{
-    echo "No se Puedo establecer conexion a la DB.</br>";
+    echo "<script type=\"text/javascript\"> alert ('No se Puedo establecer conexion a la DB');";
+    echo "</script>";
 }
 
 $selectDB = mysqli_select_db($conexion,'tiendabendicion');
 
 if ($selectDB) {
-    echo "Se selecciono correctamente la base de datos.</br>";
+    echo "<script type=\"text/javascript\"> alert ('Se selecciono correctamente la DB');";
+    echo "</script>";
 } else {
-    echo "No se encontro la base de datos.</br>";
+    echo "<script type=\"text/javascript\"> alert ('No se encontro la DB');";
+    echo "</script>";
 }
 
 
@@ -25,7 +29,7 @@ if (isset($_POST['buscarEmp'])) {
 
     $resultado = mysqli_query($conexion, $sql);
 
-     mysqli_data_seek ($resultado, 0);
+    mysqli_data_seek ($resultado, 0);
 
     $extraido = mysqli_fetch_array($resultado);
 
@@ -71,7 +75,8 @@ if (isset($_POST['buscarEmp'])) {
     }
 
 } else {
-    echo "No se puedo ejecutar la consulta.</br>";
+    echo "<script type=\"text/javascript\"> alert ('ERROR EN LA EJECUCION DE LA CONSULTA');";
+    echo "</script>";
 }
 
 

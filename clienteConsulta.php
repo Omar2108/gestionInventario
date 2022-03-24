@@ -1,23 +1,26 @@
 <<?php session_start();
 
-require_once 'vista/html/consultaCliente.html';
+require_once 'vista/html/consultaCliente-view.php';
 
 $conexion = new mysqli("localhost","root","","tiendabendicion");
 
 if ($conexion) {
-    echo "Conectado a la  DB.</br>";
+   echo "<script type=\"text/javascript\"> alert ('Conectado a la DB');";
+   echo "</script>";
 } else{
-    echo "No se Puedo establecer conexion a la DB.</br>";
+    echo "<script type=\"text/javascript\"> alert ('No se Puedo establecer conexion a la DB');";
+    echo "</script>";
 }
 
 $selectDB = mysqli_select_db($conexion,'tiendabendicion');
 
 if ($selectDB) {
-    echo "Se selecciono correctamente la base de datos.</br>";
+    echo "<script type=\"text/javascript\"> alert ('Se selecciono correctamente la DB');";
+    echo "</script>";
 } else {
-    echo "No se encontro la base de datos.</br>";
+    echo "<script type=\"text/javascript\"> alert ('No se encontro la DB');";
+    echo "</script>";
 }
-
 
 if (isset($_POST['buscador'])) {
     $doc = $_POST['doc'];
@@ -53,7 +56,7 @@ if (isset($_POST['buscador'])) {
         mysqli_close($conexion);
     } else {
 
-        echo "<script type=\"text/javascript\"> alert ('NO SE ENCONTRO NINGUN REGISTRO');";
+        echo "<script type=\"text/javascript\"> alert ('NO SE ENCONTRO NINGUN REGISTRO CON EL NUMERO DE DOCUMENTO INGRESADO');";
         echo "</script>";
 
         mysqli_free_result($resultado);
@@ -62,7 +65,8 @@ if (isset($_POST['buscador'])) {
     }
 
 } else {
-    echo "No se puedo ejecutar la consulta.</br>";
+    echo "<script type=\"text/javascript\"> alert ('ERROR EN LA EJECUCION DE LA CONSULTA');";
+    echo "</script>";
 }
 
  

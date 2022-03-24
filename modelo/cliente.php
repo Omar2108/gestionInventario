@@ -3,7 +3,7 @@
 /**
  * 
  */
-class clientes extends AnotherClass
+class clientes 
 {
 	private $nombresClient;
 	private $tipoDocClient;

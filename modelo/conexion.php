@@ -7,7 +7,7 @@ class Conexion {
     private $filasAfectadas;
     private $tiendabendicionId;
 
-    public function abrir()
+    public function abrirConexion()
     {
     	$this->mySQLI=new mysqli("localhost","root","","tiendabendicion");
         if(mysqli_connect_error()){
@@ -17,7 +17,7 @@ class Conexion {
         }
     }
 
-    public function cerrar()
+    public function cerrarConexion()
     {
     	$this->mySQLI->close();
     }

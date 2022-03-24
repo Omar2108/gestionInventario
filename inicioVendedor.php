@@ -1,5 +1,5 @@
 <<?php 
-include 'vista/html/facturaCrear.html';
+include 'vista/html/facturaCrear-view.php';
 
 
 

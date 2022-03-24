@@ -1,5 +1,5 @@
 <<?php 
-require 'vista/html/inicio.html';
+require './vista/html/inicio-view.php';
 
 
 
